@@ -6,9 +6,9 @@ import xml.dom.minidom
 import sys
 
 HOST="localhost"
-PORT=22
-USER="etu"
-PASS="-etu-"
+PORT=2022
+USER="admin"
+PASS="admin"
 
 # ============================================================================
 # ================================ GET-CONFIG ================================
