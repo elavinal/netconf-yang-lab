@@ -9,6 +9,7 @@ sudo apt-get install -y --no-install-recommends --fix-missing\
   automake \
   build-essential \
   unzip \
+  libncurses5 \
   libxml2-utils \
   libtool \
   python-paramiko \
