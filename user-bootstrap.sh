@@ -27,11 +27,12 @@ echo ""  >> ~/.profile
 echo "# EDIT NETCONF/YANG LAB"  >> ~/.profile
 echo "source ~/confd-6.4/confdrc"  >> ~/.profile
 
-# ---- ConfD DHCP server example ----
+# ---- Symlinks to /vagrant folders  ----
 echo "Making sym links to NETCONF/YANG dhcpd folders..."
 ln -fs /vagrant/dhcpd ~/dhcpd
 ln -fs /vagrant/dhcpd_ncclient ~/dhcpd_ncclient
 ln -fs /vagrant/yang ~/yang
+ln -fs /vagrant/examples ~/examples
 
 # ---- pyang ----
 echo "Installing pyang..." 
