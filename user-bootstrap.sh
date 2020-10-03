@@ -38,6 +38,10 @@ ln -fs /vagrant/examples ~/examples
 echo "Installing pyang..." 
 pip3 install pyang
 
+# ---- Overwrite ConfD's pyang version ----
+mv ~/confd-6.4/bin/pyang ~/confd-6.4/bin/pyang-old
+ln -fs ~/.local/bin/pyang ~/confd-6.4/bin/pyang
+
 # ---- ncclient ----
 echo "Installing ncclient..."
 pip3 install ncclient
