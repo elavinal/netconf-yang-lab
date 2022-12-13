@@ -1,2 +1,4 @@
 # netconf-yang-lab
-NETCONF/YANG lab at Université de Toulouse
+
+This repository contains files for a NETCONF/YANG lab proposed
+in a network management course at Université de Toulouse, France.
