@@ -199,7 +199,7 @@ def print_menu():
     print("20) edit-config create/delete interface")
     print("21) edit-config enable/disable interface")
     print("22) edit-config set VLAN")
-    print("23) edit-config set IP addr")
+    print("23) edit-config set IP addr\n")
     
     print("30) discard changes")
     print("31) validate candidate")
