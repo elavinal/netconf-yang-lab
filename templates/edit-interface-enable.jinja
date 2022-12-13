@@ -1,0 +1,9 @@
+{# to enable or disable an interface #}
+<config>
+<interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+    <interface operation="merge">
+        <name>GigabitEthernet{{ ifid }}</name>
+        <enabled>{{ enable }}</enabled>
+    </interface>
+</interfaces>
+</config>

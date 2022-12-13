@@ -1,0 +1,10 @@
+{# to create or delete a GigabitEthernet interface #}
+<config>
+<interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+    <interface operation="{{ operation }}">
+        <name>GigabitEthernet{{ ifid }}</name>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+        <enabled>false</enabled>
+    </interface>
+</interfaces>
+</config>
